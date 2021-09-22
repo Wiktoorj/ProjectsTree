@@ -9,41 +9,55 @@
 body {
     background-color: lightblue;
 }
+
 ul {
     list-style: none;
 }
 
 li {
     border-bottom: 2px solid black;
-    padding: 20px;
+    padding: 30px;
 }
 
-a {
+li h1 {
+    margin-bottom: 7vh;
+    color: darkslategray;
+    font-size: 2rem;
+    border-bottom: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+
+}
+
+li p {
+    margin: 5vh 0;
+    color: darkslategray;
+    font-style: italic;
+}
+
+li a {
+    display: block;
+    width: 35%;
+    margin: 7vh auto 0;
+    padding: 10px 30px;
     color: darkslategray;
     font-size: 1.5rem;
     text-decoration: none;
-    border-bottom: 1px solid darkslategray;
-    border-top: 1px solid darkslategray;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    letter-spacing: 3px;
 }
 
 li:hover,
 li:hover p {
     background-color: darkslategray;
     color: white;
-
 }
 
-li:hover a {
+li:hover a,
+li:hover h1 {
     color: yellow;
     border-color: yellow;
 }
-
-li p {
-    margin-top: 20px;
-    color: darkslategray;
-    font-style: italic;
-}
-
 
 footer {
     padding: 30px;
