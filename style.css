@@ -6,8 +6,9 @@
     text-align: center;
 }
 
-nav {}
-
+body {
+    background-color: lightblue;
+}
 ul {
     list-style: none;
 }
@@ -22,20 +23,25 @@ a {
     font-size: 1.5rem;
     text-decoration: none;
     border-bottom: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
 }
 
 li:hover,
-li:hover a,
 li:hover p {
     background-color: darkslategray;
     color: white;
-    border-bottom-color: white;
-    /* padding: 10px;s */
+
+}
+
+li:hover a {
+    color: yellow;
+    border-color: yellow;
 }
 
 li p {
     margin-top: 20px;
-    color: darkslategray
+    color: darkslategray;
+    font-style: italic;
 }
 
 
@@ -44,5 +50,12 @@ footer {
 }
 
 footer p {
-    color: darkslategray
+    color: darkslategray;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+.techno {
+    font-size: 2rem;
+    font-weight: 700;
 }
