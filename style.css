@@ -36,7 +36,7 @@ li p {
 
 li a {
     display: block;
-    width: 35%;
+    width: 30%;
     margin: 7vh auto 0;
     padding: 10px 30px;
     color: darkslategray;
@@ -47,29 +47,36 @@ li a {
     letter-spacing: 3px;
 }
 
-li:hover,
-li:hover p {
-    background-color: darkslategray;
-    color: white;
-}
+@media (max-width: 880px) {
+    li a {
+        width: 80%;
+        font-size: 1.3rem;
+    }
 
-li:hover a,
-li:hover h1 {
-    color: yellow;
-    border-color: yellow;
-}
 
-footer {
-    padding: 30px;
-}
+    li:hover,
+    li:hover p {
+        background-color: darkslategray;
+        color: white;
+    }
 
-footer p {
-    color: darkslategray;
-    padding-top: 10px;
-    letter-spacing: 2px;
-}
+    li:hover a,
+    li:hover h1 {
+        color: yellow;
+        border-color: yellow;
+    }
 
-.techno {
-    font-size: 2rem;
-    font-weight: 700;
-}
+    footer {
+        padding: 30px;
+    }
+
+    footer p {
+        color: darkslategray;
+        padding-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    .techno {
+        font-size: 2rem;
+        font-weight: 700;
+    }
